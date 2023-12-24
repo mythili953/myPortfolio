@@ -1,8 +1,18 @@
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f6dcac;
 
   }
+
+
+
+
   
   #menu {
     z-index: 2;
@@ -106,28 +116,13 @@ body {
    padding: 2px;
   align-items: center;
   position: absolute;
-  top:10%;
+  top:5%;
   
   
    
   }
  
- @media  screen and (max-width: 500px){
-    .intro{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .education{
-        flex-direction: column;
-       position: absolute;
-      
-       
-    }
-   
-      
-    
- }
+
   
   .img{
     display: flex;
@@ -144,7 +139,7 @@ body {
     
     position: absolute;
     margin: 5px;
-    top:90%;
+    top:85%;
     padding: 10px;
     margin-left:20px;
     align-content: space-around;
@@ -152,12 +147,109 @@ body {
     left:5%;
   }
   .school{
-    border-top: 6px solid #9c4126;
+    border-top: 6px solid   #f85525;
     padding: 5px;
     border-radius: 20px;
     padding-left: 2%;
-    border-bottom: 6px solid #f85525;
+    border-bottom: 6px solid #764838;
     
   }
- 
+  .interests{
+    position: absolute;
+    top:162%;
+    display: flex;
+    flex-direction: column;
+    
+    
+    margin: 5px;
+
+    padding: 10px;
+    margin-left:20px;
+    align-content: space-around;
+   
+    left:5%;
+  }
+ img{
+    width:auto;
+height: 500px; 
+border-radius: 30px;
+}
+.art1{
+    display: flex;
+    
+   margin: 2%;
+   padding: 2%;
   
+  
+}
+.art{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media  screen and (max-width: 500px){
+    .intro{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .education{
+        flex-direction: column;
+        width:100%;
+    
+      
+       
+    }
+    .interests{
+        flex-direction: column;
+    
+        padding: 5px;
+      
+       
+    }
+    .art{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        margin: 10px;
+    }
+    img{
+        width:300px;
+        height: auto;
+    }
+    .contact{
+      display: flex;
+    
+    
+      margin-left: 0%;
+     
+    }
+  }
+
+  .contact{
+    position: absolute;
+    top:372%;
+   
+    
+    margin: 5px;
+
+    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 36%;
+   
+   
+    left:5%;
+  }
+    #logo{
+      border-radius: 0%;
+      height:40px;
+       width:auto ;
+     }
+     .socials{
+      display: flex;
+      justify-content: space-around;
+     
+     }
+     
