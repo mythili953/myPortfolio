@@ -3,16 +3,27 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-  }
+    -webkit-tap-highlight-color: transparent;
+}
 
 html {
     scroll-behavior: smooth;
     overscroll-behavior: none;
     overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 
 section {
     scroll-margin-top: 80px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -791,6 +802,7 @@ footer {
         position: fixed;
         right: 20px;
         top: 20px;
+        z-index: 1000;
     }
 
     .hamburger.active span:nth-child(1) {
@@ -836,6 +848,7 @@ footer {
         flex-direction: column;
         text-align: center;
         padding: 0 20px;
+        width: 100%;
     }
 
     .hero-text {
@@ -854,35 +867,38 @@ footer {
     .hero-image img {
         height: 20rem;
         width: auto;
+        max-width: 100%;
     }
 
     .cards-contain {
         grid-template-columns: 1fr;
         padding: 1rem;
+        width: 100%;
     }
 
     .stack {
         width: 95%;
+        margin: 0 auto;
     }
 
-  
-
-   
     .footer-container {
         flex-direction: column;
         text-align: center;
         padding: 0 20px;
+        width: 100%;
     }
 
     .contact-me {
         text-align: center;
         margin-bottom: 30px;
+        width: 100%;
     }
 
     .social-links ul {
         position: relative;
         flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
     }
 }
 
@@ -897,13 +913,14 @@ footer {
 
     .hero-image img {
         height: 15rem;
+        max-width: 100%;
     }
 
     .text-shadows, .text-shadows-interests {
         font-size: 32px;
+        width: 100%;
+        padding: 0 10px;
     }
-   
-
 }
 
 @media screen and (max-width: 350px) {
@@ -917,6 +934,7 @@ footer {
 
     .hero-image img {
         height: 12rem;
+        max-width: 100%;
     }
 
     .text-shadows, .text-shadows-interests {
@@ -924,18 +942,22 @@ footer {
         padding: 10px 0px;
         margin: 5px 10px;
         letter-spacing: 0.1rem;
+        width: 100%;
     }
 
     .card {
         padding: 15px 10px;
+        width: 100%;
     }
 
     .card-img {
         height: 150px;
+        width: 100%;
     }
 
     .card-data {
         padding: 10px;
+        width: 100%;
     }
 
     .card-btn {
@@ -950,15 +972,18 @@ footer {
     .box {
         padding: 10px 20px;
         font-size: 14px;
+        width: 100%;
     }
 
     .desc {
         font-size: 14px;
         padding: 0 10px;
+        width: 100%;
     }
 
     .footer-content {
         padding: 0 10px;
+        width: 100%;
     }
 
     .contact-me h2, .social-links h3 {
@@ -967,6 +992,7 @@ footer {
 
     .contact-info a {
         font-size: 14px;
+        width: 100%;
     }
 
     .social-links a {
