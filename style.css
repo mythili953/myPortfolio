@@ -590,9 +590,21 @@ img {
 
     .text-shadows {
         font-size: 32px;
-        padding: 20px 0px;
-        margin: 10px 20px;
+        padding: 40px 0px 20px 0px;
+        margin: 20px 20px;
         letter-spacing: 0.2rem;
+    }
+
+    .text-shadows-interests {
+        font-size: 32px;
+        padding: 40px 0px 20px 0px;
+        margin: 20px 20px;
+        letter-spacing: 0.2rem;
+    }
+
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 
     .hero-text svg {
@@ -601,14 +613,29 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+
+    .card-btn {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 480px) {
-    .text-shadows {
+    .text-shadows, .text-shadows-interests {
         font-size: 28px;
-        padding: 15px 0px;
-        margin: 8px 15px;
+        padding: 35px 0px 15px 0px;
+        margin: 15px 15px;
         letter-spacing: 0.15rem;
+    }
+
+    h2 {
+        margin-top: 35px;
+        margin-bottom: 20px;
     }
 
     .hero-text svg {
@@ -617,14 +644,46 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .btn {
+        padding: 7px 14px;
+        font-size: 15px;
+    }
+
+    .card-btn {
+        padding: 7px 14px;
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 350px) {
+    .text-shadows, .text-shadows-interests {
+        font-size: 28px;
+        padding: 30px 0px 10px 0px;
+        margin: 10px 10px;
+        letter-spacing: 0.1rem;
+    }
+
+    h2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
     .hero-text svg {
         height: 35px;
         width: auto;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .btn {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .card-btn {
+        padding: 6px 12px;
+        font-size: 14px;
     }
 }
 
