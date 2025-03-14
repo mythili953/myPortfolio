@@ -26,6 +26,10 @@ section {
     overflow-x: hidden;
 }
 
+.logo img{
+  height: 60px;
+}
+
 /* Navbar */
 nav {
     margin: 0; 
@@ -798,6 +802,13 @@ footer {
     text-align: center;
     padding-top: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.footer-bottom img{
+  height: 30px;
 }
 
 .footer-bottom p {
